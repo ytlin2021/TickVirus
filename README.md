@@ -1,5 +1,5 @@
 # Evaluation of the zoonotic potential of tick-borne viruses in public datasets 
-Code and data in the study in _Yuting Lin and David Pascall. Evaluation of the zoonotic potential of tick-borne viruses in public datasets_. The study re-examined currently known tick-borne viruses and identified putative novel viruses associated with ticks in public datasets. 
+Code and data in the study in _Lin and Pascall. Evaluation of the zoonotic potential of tick-borne viruses in public datasets_. The study re-examined currently known tick-borne viruses and identified putative novel viruses associated with ticks in public datasets. 
 
 ## File structure
 ```
