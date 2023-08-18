@@ -19,6 +19,11 @@ Code and data in the study in _Lin and Pascall. Characterisation and zoonotic ri
    │   │  │                                     removing poorly aligned sequences and regions
    │   │  └─OrthomyxoviridaeMSA.fa ............ MSA of Orthomyxoviridae RdRp protein sequences after 
    │   │
+   │   ├─ProteinSeqs/ ..........................Raw protein sequences used for alignments 
+   │   │  ├─HepeAlphatetraviridae+candidates_RdRp.fa 
+   │   │  ├─Chuviridae+TSAcandidate_RdRp.fa 
+   │   │  └─Orthomyxoviridae+candidates_PB1.fa
+   │   │  
    │   └─Trees/ ............................... Tree files in nexus format
    │      ├─AlphaMCC.tree ..................... The maximum clade credibility tree of Alphatetraviridae
    │      │                                     based on RdRp protein sequences
