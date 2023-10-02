@@ -1,0 +1,368 @@
+#NEXUS
+	dimensions ntax=133;
+	taxlabels
+        'AFN73049 Tjuloc virus'
+        'AHB34055 Upolu virus'[&!color=#0066cc]
+        'AHB34061 Aransas Bay virus'[&!color=#0066cc]
+        'AJG39085 Jiujie Fly Virus'
+        'AJG39086 Sanxia Water Strider Virus 3'
+        'AJG39088 Shuangao Insect Virus 4'
+        'AJG39089 Wuhan Louse Fly Virus 3'
+        'AJG39090 Wuhan Louse Fly Virus 4'
+        'AJG39091 Wuhan Mosquito Virus 3'
+        'AJG39092 Wuhan Mosquito Virus 4'
+        'AJG39095 Wuhan Mosquito Virus 7'
+        'AJG39096 Wuhan Mothfly Virus'
+        'APG77897 Jingshan Fly Virus 1'
+        'APP91612 Sinu virus'
+        'AQM37672 Rainbow trout orthomyxovirus-2'
+        'AQM37674 Rainbow trout orthomyxovirus-1'
+        'AQM37684 Steelhead trout orthomyxovirus-1'
+        'AQU42764 Whidbey virus'
+        'ASM94088 Barns Ness dog whelk orthomyxo-like virus 1'
+        'ASR92124 Araguari virus'
+        'AVM87616 Wenling orthomyxo-like virus 1'
+        'AVM87618 Yancheng orthomyxo-like virus'
+        'AVM87619 Wenling orthomyxo-like virus 2'
+        'AVM87621 Wuhan spiny eel influenza virus'
+        'AVM87629 Wuhan asiatic toad influenza virus'
+        'AVM87635 Wenling hagfish influenza virus'
+        'AVM87639 Wuhan carp Isavirus 1'
+        'AVM87640 Wuhan carp Isavirus 2'
+        'AVR52567 Photinus pyralis orthomyxo-like virus 1'
+        'AVR52572 Photinus pyralis orthomyxo-like virus 2'
+        'AWU49720 Zambezi tick virus 1'[&!color=#0066cc]
+        'AYR04798 Longchuang virus'
+        'DAZ85673 Aedes orthomyxo-like virus 2'
+        'NP 056657 Influenza B virus B/Lee/1940'
+        'QAY29268 Bombus-associated virus Orth1'
+        'QDK54862 Longchuan virus'
+        'QED21504 Lestrade virus'
+        'QEM39320 Guadeloupe mosquito quaranja-like virus 3'
+        'QEM39321 Guadeloupe mosquito quaranja-like virus 2'
+        'QFR36189 Thailand tick thogotovirus'
+        'QGA87318 Culex orthomyxo-like virus'
+        'QIJ70032 Splett orthomyxo-like virus'
+        'QJQ28680 Pilchard orthomyxovirus'
+        'QKK82920 Uumaja virus'[&!color=#0066cc]
+        'QKK82921 Neke harbour virus'
+        'QMP82112 Hymenopteran orthomyxo-related virus OKIAV173'
+        'QMP82138 Orthopteran orthomyxo-related virus OKIAV160'
+        'QMP82147 Hemipteran orthomyxo-related virus OKIAV183'
+        'QMP82168 Coleopteran orthomyxo-related virus OKIAV200'
+        'QMP82195 Coleopteran orthomyxo-related virus OKIAV158'
+        'QMP82202 Hemipteran orthomyxo-related virus OKIAV191'
+        'QMP82204 Phasmatodean orthomyxo-related virus OKIAV167'
+        'QMP82206 Coleopteran orthomyxo-related virus OKIAV185'
+        'QMP82229 Dipteran orthomyxo-related virus OKIAV195'
+        'QMP82233 Coleopteran orthomyxo-related virus OKIAV186'
+        'QMP82248 Phasmatodean orthomyxo-related virus OKIAV172'
+        'QMP82268 Coleopteran orthomyxo-related virus OKIAV196'
+        'QMP82272 Dipteran orthomyxo-related virus OKIAV193'
+        'QMP82285 Siphonapteran orthomyxo-related virus OKIAV157'
+        'QMP82320 Hemipteran orthomyxo-related virus OKIAV205'
+        'QMP82331 Coleopteran orthomyxo-related virus OKIAV184'
+        'QMP82338 Coleopteran orthomyxo-related virus OKIAV179'
+        'QMP82339 Coleopteran orthomyxo-related virus OKIAV168'
+        'QMP82344 Blattodean orthomyxo-related virus OKIAV181'
+        'QMP82355 Dermapteran orthomyxo-related virus OKIAV170'
+        'QMP82362 Hemipteran orthomyxo-related virus OKIAV182'
+        'QMP82367 Zygentoman orthomyxo-related virus OKIAV204'
+        'QMP82388 Lepidopteran orthomyxo-related virus OKIAV1731'
+        'QMP82402 Lepidopteran orthomyxo-related virus OKIAV178'
+        'QMP82403 Hemipteran orthomyxo-related virus OKIAV188'
+        'QOE76794 Ornate chorus frog influenza-like virus'
+        'QOE76801 Siamese algae-eater influenza-like virus'
+        'QOE76809 Salamander influenza-like virus'
+        'QOE76818 Cane toad influenza-like virus'
+        'QOE76825 Chum salmon influenza-like virus'
+        'QPL15288 Neuropteran orthomyxo-related virus OKIAV190'
+        'QPL15289 Hemipteran orthomyxo-related virus OKIAV211'
+        'QPL15290 Orthopteran orthomyxo-related virus OKIAV207'
+        'QPL15340 Raphidiopteran orthomyxo-related virus OKIAV180'
+        'QPL15346 Neuropteran orthomyxo-related virus OKIAV210'
+        'QPL15347 Hemipteran orthomyxo-related virus OKIAV187'
+        'QPL15368 Hymenopteran orthomyxo-related virus OKIAV175'
+        'QPL15369 Hymenopteran orthomyxo-related virus OKIAV171'
+        'QPL15381 Hymenopteran orthomyxo-related virus OKIAV174'
+        'QPN36939 Solling orthomyxo-like virus'
+        'QPN36942 Goettingen orthomyxo-like virus'
+        'QPN36968 Ganwon-do orthomyxo-like virus'
+        'QPZ88431 Soybean thrips quaranja-like virus 1'
+        'QPZ88434 Soybean thrips quaranja-like virus 2'
+        'QPZ88437 Soybean thrips quaranja-like virus 3'
+        'QQN90103 Soybean thrips thogotovirus 1'
+        'QRD99912 Aedes detritus orthomyxo-like virus'
+        'QRD99916 Culex modestus orthomyxo-like virus'
+        'QRD99919 Culex pipiens orthomyxo-like virus'
+        'QRW42449 Wuhan Mosquito Virus 6'
+        'QRW42594 Guadeloupe mosquito quaranja-like virus 1'
+        'QTW97779 Wuhan Mosquito Virus 5'
+        'QWC36487 Bemisia tabaci Quaranja-like virus 1'
+        'QWC36493 Bemisia tabaci Quaranja-like virus 2'
+        'QWC36498 Bemisia tabaci Quaranja-like virus 3'
+        'Putative tick orthomyxovirus-1'[&!color=#990000]
+        'Putative tick orthomyxovirus-2'[&!color=#990000]
+        'UAJ23566 Granville quaranjavirus'[&!color=#0066cc]
+        'UDL13962 Xiangshan orthomyxo-like virus'
+        'UGO48657 Palmetto orthomyxo-like virus'
+        'UJQ87630 Orthomyxoviridae sp.'
+        'ULY68747 Varroa orthomyxovirus-1'
+        'UMO75699 Xinjiang orthomyxo-like virus 3'
+        'UMO75705 Guangxi sediment orthomyxo-like virus'
+        'UMO75713 Xinjiang sediment orthomyxo-like virus 4'
+        'UMO75717 Xinjiang sediment orthomyxo-like virus 5'
+        'UMO75720 Xinjiang sediment orthomyxo-like virus 1'
+        'UMO75722 Henan sediment orthomyxo-like virus'
+        'UMO75723 Xinjiang sediment orthomyxo-like virus 2'
+        'UMO75726 Heilongjiang sediment orthomyxo-like virus'
+        'UMO75729 Yunnan sediment orthomyxo-like virus'
+        'UMO75733 Sichuan orthomyxo-like virus 1'
+        'UMO75734 Hainan orthomyxo-like virus 2'
+        'UNQ78355 Bourbon virus'[&!color=#0066cc]
+        'UPT53723 Bactrocera correcta orthomyxo-like virus isolate Bl'
+        'UPT53748 Bactrocera tryoni orthomyxo-like virus'
+        'UPT53756 Bactrocera correcta orthomyxo-like virus isolate Bz'
+        'UQS93311 Bactrocera correcta Orthomyxo-like virus'
+        'YP 009110686 Wellfleet Bay virus'[&!color=#0066cc]
+        'YP 009118628 Influenza A virus A/California/07/2009(H1N1)'
+        'YP 009352882 Dhori thogotovirus'[&!color=#0066cc]
+        'YP 009449556 Influenza D virus D/swine/Oklahoma/1334/2011'
+        'YP 009508043 Quaranfil quaranjavirus'[&!color=#0066cc]
+        'YP 009553280 Oz virus'[&!color=#0066cc]
+        'YP 009987461 Lake Chad virus'
+        'YP 009996585 Johnston Atoll quaranjavirus'[&!color=#0066cc]
+        'YP 089653 Influenza C virus C/Ann Arbor/1/50'
+        'YP 145794 Thogoto thogotovirus'[&!color=#0066cc]
+;
+end;
+
+
+Begin trees;
+   	Translate
+        AFN73049 'AFN73049 Tjuloc virus',
+        UJQ87630 'UJQ87630 Orthomyxoviridae sp.',
+        UMO75717 'UMO75717 Xinjiang sediment orthomyxo-like virus 5',
+        UMO75713 'UMO75713 Xinjiang sediment orthomyxo-like virus 4',
+        UMO75705 'UMO75705 Guangxi sediment orthomyxo-like virus',
+        UMO75720 'UMO75720 Xinjiang sediment orthomyxo-like virus 1',
+        UMO75722 'UMO75722 Henan sediment orthomyxo-like virus',
+        UMO75723 'UMO75723 Xinjiang sediment orthomyxo-like virus 2',
+        UMO75726 'UMO75726 Heilongjiang sediment orthomyxo-like virus',
+        UMO75733 'UMO75733 Sichuan orthomyxo-like virus 1',
+        UMO75734 'UMO75734 Hainan orthomyxo-like virus 2',
+        UMO75729 'UMO75729 Yunnan sediment orthomyxo-like virus',
+        UMO75699 'UMO75699 Xinjiang orthomyxo-like virus 3',
+        UGO48657 'UGO48657 Palmetto orthomyxo-like virus',
+        UPT53723 'UPT53723 Bactrocera correcta orthomyxo-like virus isolate Bl',
+        UPT53748 'UPT53748 Bactrocera tryoni orthomyxo-like virus',
+        UPT53756 'UPT53756 Bactrocera correcta orthomyxo-like virus isolate Bz',
+        UQS93311 'UQS93311 Bactrocera correcta Orthomyxo-like virus',
+        YP_0091106 'YP 009110686 Wellfleet Bay virus',
+        YP_0091186 'YP 009118628 Influenza A virus A/California/07/2009(H1N1)',
+        YP_0093528 'YP 009352882 Dhori thogotovirus',
+        YP_0094495 'YP 009449556 Influenza D virus D/swine/Oklahoma/1334/2011',
+        YP_0095080 'YP 009508043 Quaranfil quaranjavirus',
+        YP_0095532 'YP 009553280 Oz virus',
+        YP_0099874 'YP 009987461 Lake Chad virus',
+        YP_0099965 'YP 009996585 Johnston Atoll quaranjavirus',
+        YP_089653 'YP 089653 Influenza C virus C/Ann Arbor/1/50',
+        YP_145794 'YP 145794 Thogoto thogotovirus',
+        ULY68747 'ULY68747 Varroa orthomyxovirus-1',
+        UDL13962 'UDL13962 Xiangshan orthomyxo-like virus',
+        UAJ23566 'UAJ23566 Granville quaranjavirus',
+        UNQ78355 'UNQ78355 Bourbon virus',
+        RdRp_GIJA 'GIJA01018702 Putative tick orthomyxovirus-2',
+        AHB34055 'AHB34055 Upolu virus',
+        AHB34061 'AHB34061 Aransas Bay virus',
+        AJG39085 'AJG39085 Jiujie Fly Virus',
+        AJG39086 'AJG39086 Sanxia Water Strider Virus 3',
+        AJG39088 'AJG39088 Shuangao Insect Virus 4',
+        AJG39089 'AJG39089 Wuhan Louse Fly Virus 3',
+        AJG39090 'AJG39090 Wuhan Louse Fly Virus 4',
+        AJG39091 'AJG39091 Wuhan Mosquito Virus 3',
+        AJG39092 'AJG39092 Wuhan Mosquito Virus 4',
+        AJG39095 'AJG39095 Wuhan Mosquito Virus 7',
+        AJG39096 'AJG39096 Wuhan Mothfly Virus',
+        APG77897 'APG77897 Jingshan Fly Virus 1',
+        APP91612 'APP91612 Sinu virus',
+        AQM37672 'AQM37672 Rainbow trout orthomyxovirus-2',
+        AQM37674 'AQM37674 Rainbow trout orthomyxovirus-1',
+        AQM37684 'AQM37684 Steelhead trout orthomyxovirus-1',
+        AQU42764 'AQU42764 Whidbey virus',
+        ASM94088 'ASM94088 Barns Ness dog whelk orthomyxo-like virus 1',
+        ASR92124 'ASR92124 Araguari virus',
+        AVM87616 'AVM87616 Wenling orthomyxo-like virus 1',
+        AVM87618 'AVM87618 Yancheng orthomyxo-like virus',
+        AVM87619 'AVM87619 Wenling orthomyxo-like virus 2',
+        AVM87621 'AVM87621 Wuhan spiny eel influenza virus',
+        AVM87629 'AVM87629 Wuhan asiatic toad influenza virus',
+        AVM87635 'AVM87635 Wenling hagfish influenza virus',
+        AVM87639 'AVM87639 Wuhan carp Isavirus 1',
+        AVM87640 'AVM87640 Wuhan carp Isavirus 2',
+        AVR52567 'AVR52567 Photinus pyralis orthomyxo-like virus 1',
+        AVR52572 'AVR52572 Photinus pyralis orthomyxo-like virus 2',
+        AWU49720 'AWU49720 Zambezi tick virus 1',
+        AYR04798 'AYR04798 Longchuang virus',
+        DAZ85673 'DAZ85673 Aedes orthomyxo-like virus 2',
+        NP_056657 'NP 056657 Influenza B virus B/Lee/1940',
+        QAY29268 'QAY29268 Bombus-associated virus Orth1',
+        QDK54862 'QDK54862 Longchuan virus',
+        QED21504 'QED21504 Lestrade virus',
+        QEM39320 'QEM39320 Guadeloupe mosquito quaranja-like virus 3',
+        QEM39321 'QEM39321 Guadeloupe mosquito quaranja-like virus 2',
+        QFR36189 'QFR36189 Thailand tick thogotovirus',
+        QGA87318 'QGA87318 Culex orthomyxo-like virus',
+        QIJ70032 'QIJ70032 Splett orthomyxo-like virus',
+        QJQ28680 'QJQ28680 Pilchard orthomyxovirus',
+        QKK82920 'QKK82920 Uumaja virus',
+        QKK82921 'QKK82921 Neke harbour virus',
+        QMP82112 'QMP82112 Hymenopteran orthomyxo-related virus OKIAV173',
+        QMP82138 'QMP82138 Orthopteran orthomyxo-related virus OKIAV160',
+        QMP82147 'QMP82147 Hemipteran orthomyxo-related virus OKIAV183',
+        QMP82168 'QMP82168 Coleopteran orthomyxo-related virus OKIAV200',
+        QMP82195 'QMP82195 Coleopteran orthomyxo-related virus OKIAV158',
+        QMP82202 'QMP82202 Hemipteran orthomyxo-related virus OKIAV191',
+        QMP82204 'QMP82204 Phasmatodean orthomyxo-related virus OKIAV167',
+        QMP82206 'QMP82206 Coleopteran orthomyxo-related virus OKIAV185',
+        QMP82229 'QMP82229 Dipteran orthomyxo-related virus OKIAV195',
+        QMP82233 'QMP82233 Coleopteran orthomyxo-related virus OKIAV186',
+        QMP82248 'QMP82248 Phasmatodean orthomyxo-related virus OKIAV172',
+        QMP82268 'QMP82268 Coleopteran orthomyxo-related virus OKIAV196',
+        QMP82272 'QMP82272 Dipteran orthomyxo-related virus OKIAV193',
+        QMP82285 'QMP82285 Siphonapteran orthomyxo-related virus OKIAV157',
+        QMP82320 'QMP82320 Hemipteran orthomyxo-related virus OKIAV205',
+        QMP82331 'QMP82331 Coleopteran orthomyxo-related virus OKIAV184',
+        QMP82338 'QMP82338 Coleopteran orthomyxo-related virus OKIAV179',
+        QMP82339 'QMP82339 Coleopteran orthomyxo-related virus OKIAV168',
+        QMP82344 'QMP82344 Blattodean orthomyxo-related virus OKIAV181',
+        QMP82355 'QMP82355 Dermapteran orthomyxo-related virus OKIAV170',
+        QMP82362 'QMP82362 Hemipteran orthomyxo-related virus OKIAV182',
+        QMP82367 'QMP82367 Zygentoman orthomyxo-related virus OKIAV204',
+        QMP82388 'QMP82388 Lepidopteran orthomyxo-related virus OKIAV1731',
+        QMP82402 'QMP82402 Lepidopteran orthomyxo-related virus OKIAV178',
+        QMP82403 'QMP82403 Hemipteran orthomyxo-related virus OKIAV188',
+        QOE76794 'QOE76794 Ornate chorus frog influenza-like virus',
+        QOE76801 'QOE76801 Siamese algae-eater influenza-like virus',
+        QOE76809 'QOE76809 Salamander influenza-like virus',
+        QOE76818 'QOE76818 Cane toad influenza-like virus',
+        QOE76825 'QOE76825 Chum salmon influenza-like virus',
+        QPL15288 'QPL15288 Neuropteran orthomyxo-related virus OKIAV190',
+        QPL15289 'QPL15289 Hemipteran orthomyxo-related virus OKIAV211',
+        QPL15290 'QPL15290 Orthopteran orthomyxo-related virus OKIAV207',
+        QPL15340 'QPL15340 Raphidiopteran orthomyxo-related virus OKIAV180',
+        QPL15346 'QPL15346 Neuropteran orthomyxo-related virus OKIAV210',
+        QPL15347 'QPL15347 Hemipteran orthomyxo-related virus OKIAV187',
+        QPL15368 'QPL15368 Hymenopteran orthomyxo-related virus OKIAV175',
+        QPL15369 'QPL15369 Hymenopteran orthomyxo-related virus OKIAV171',
+        QPL15381 'QPL15381 Hymenopteran orthomyxo-related virus OKIAV174',
+        QPN36939 'QPN36939 Solling orthomyxo-like virus',
+        QPN36942 'QPN36942 Goettingen orthomyxo-like virus',
+        QPN36968 'QPN36968 Ganwon-do orthomyxo-like virus',
+        QPZ88431 'QPZ88431 Soybean thrips quaranja-like virus 1',
+        QPZ88434 'QPZ88434 Soybean thrips quaranja-like virus 2',
+        QPZ88437 'QPZ88437 Soybean thrips quaranja-like virus 3',
+        QQN90103 'QQN90103 Soybean thrips thogotovirus 1',
+        QRD99912 'QRD99912 Aedes detritus orthomyxo-like virus',
+        QRD99916 'QRD99916 Culex modestus orthomyxo-like virus',
+        QRD99919 'QRD99919 Culex pipiens orthomyxo-like virus',
+        QRW42449 'QRW42449 Wuhan Mosquito Virus 6',
+        QRW42594 'QRW42594 Guadeloupe mosquito quaranja-like virus 1',
+        QTW97779 'QTW97779 Wuhan Mosquito Virus 5',
+        QWC36487 'QWC36487 Bemisia tabaci Quaranja-like virus 1',
+        QWC36493 'QWC36493 Bemisia tabaci Quaranja-like virus 2',
+        QWC36498 'QWC36498 Bemisia tabaci Quaranja-like virus 3',
+        PututeOrth 'Putative tick orthomyxovirus-1'
+;
+	tree tree_1 = [&R] (QMP82362:0.47447159,(QMP82147:0.00000001,QMP82320:0.00000001)100.00:0.35877023,((QMP82331:0.39795058,(QMP82339:0.46857074,AVR52572:0.34638858)48.08:0.14465423)28.85:0.05797483,((QMP82233:0.26692809,QMP82206:0.40684051)66.35:0.15638469,((QMP82338:0.68859557,(QMP82388:0.17700087,QMP82402:0.19690670)100.00:0.45889844)25.96:0.08082325,(QMP82138:0.65644366,(QMP82344:0.50647983,(QMP82355:0.87234211,((QPL15340:0.41584514,AVR52567:0.38442168)75.96:0.19930786,((((QPL15369:0.27343721,(QPL15368:0.28556760,QPL15381:0.21487890)86.54:0.08869085)93.27:0.11049505,(QMP82248:0.19004714,QMP82112:0.13095622)89.42:0.11882730)62.50:0.14699063,(QPZ88431:0.69782939,AJG39096:0.56179397)42.31:0.08016423)79.81:0.12682158,((QMP82204:1.00503278,(((QMP82403:0.52829805,QPL15347:0.55380375)99.04:0.40474652,((((QEM39320:0.30746891,(UJQ87630:0.05950601,(AJG39092:0.01277029,(QRD99916:0.02565129,QGA87318:0.01397632)100.00:0.03531337)100.00:0.04794779)100.00:0.21525271)99.04:0.21947763,(QRD99919:0.00730115,QRW42449:0.00000001)100.00:0.54356885)100.00:0.40838537,(((AJG39088:0.45118655,(AJG39086:0.70997885,(QMP82272:0.52415640,(QIJ70032:0.30733064,((QMP82229:0.24313617,APG77897:0.20239050)84.62:0.07773236,(AJG39090:0.09909322,AJG39089:0.06889545)100.00:0.28049589)49.04:0.03804823)76.92:0.08102590)92.31:0.08202889)50.96:0.06220154)58.65:0.10003368,(UMO75717:0.73476274,((UMO75729:0.33300250,(UMO75713:0.00000001,UMO75699:0.00000001)100.00:0.27038991)100.00:0.42396869,(UMO75722:0.24884367,(UMO75723:0.14211810,UMO75726:0.14484132)100.00:0.16455795)100.00:0.46171403)98.08:0.22166618)16.35:0.05745000)50.96:0.09420243,(AJG39091:0.54472482,(QTW97779:0.29949142,(QEM39321:0.29387539,(DAZ85673:0.12415366,((QRW42594:0.00000001,UGO48657:0.00246704)100.00:0.06970349,(AQU42764:0.03626546,QRD99912:0.08838935)94.23:0.07606946)54.81:0.07684133)100.00:0.33753419)81.73:0.10286224)100.00:0.21404353)94.23:0.17021139)44.23:0.06982271)93.27:0.29800761,(UMO75734:1.37270692,(QPL15288:0.48183993,QMP82202:0.54875605)98.08:0.19836503)49.04:0.11562650)28.85:0.05558509)25.96:0.08177555,(((UPT53748:0.30052744,(UQS93311:0.01014671,(UPT53756:0.00000001,UPT53723:0.02614659)25.96:0.00000001)100.00:0.31560291)100.00:0.57313250,((AJG39095:0.00270660,UMO75733:0.01216656)100.00:0.69523055,(QMP82168:0.61684476,QPZ88437:0.50749239)75.96:0.14739925)98.08:0.30349090)97.12:0.33134034,((QMP82367:2.09490897,((((AVM87635:2.36849790,((YP_089653:0.15062266,(QOE76818:0.18779796,(QOE76794:0.10136934,YP_0094495:0.14885952)88.46:0.06357834)86.54:0.12558525)100.00:0.73092400,(AVM87629:0.89282211,(YP_0091186:0.39818783,(QOE76801:0.21277507,(QOE76825:0.26575231,(AVM87621:0.16818691,(NP_056657:0.16788825,QOE76809:0.22594244)81.73:0.07092431)68.27:0.04982483)80.77:0.10515662)91.35:0.18385381)99.04:0.38130961)98.08:0.34877846)80.77:0.30567944)100.00:0.50995560,(((((((ULY68747:0.37900887,QPL15289:0.26087896)97.12:0.19828316,(UDL13962:0.35435826,(APP91612:0.07783305,QPL15346:0.19488545)100.00:0.46590366)96.15:0.13332609)70.19:0.07506468,(YP_145794:0.22385518,(QKK82921:0.10656162,(AHB34055:0.06061679,AHB34061:0.03416834)97.12:0.07256279)98.08:0.13034661)79.81:0.14801006)39.42:0.09422553,(YP_0095532:0.14395318,(QFR36189:0.15283607,(YP_0093528:0.08796588,UNQ78355:0.12897961)72.12:0.07735988)42.31:0.02435466)100.00:0.22637779)100.00:0.64927868,(QPL15290:0.36213189,QQN90103:0.61875407)90.38:0.29953184)100.00:0.75070552,(QAY29268:1.49047455,(UMO75705:1.10622334,AVM87619:1.12413140)54.81:0.32547671)100.00:1.22383746)25.96:0.16524114,(QPN36942:0.55578204,QPN36939:0.64490865)100.00:0.81415002)52.88:0.25995996)74.04:0.34027248,(AVM87616:1.09161993,(UMO75720:1.11648899,(ASM94088:0.94219285,AVM87618:2.38047425)99.04:0.92609501)26.92:0.24061279)100.00:1.44500364)53.85:0.29729507,(QJQ28680:0.59669302,((AVM87639:0.02921503,AVM87640:0.06091307)100.00:0.74338182,(AQM37672:0.12461791,(AQM37674:0.00000001,AQM37684:0.01113379)80.77:0.00371262)99.04:0.76979037)72.12:0.20636580)100.00:3.02903247)99.04:0.79178040)56.73:0.25598429,(QPN36968:1.78953685,((((ASR92124:0.18644064,YP_0091106:0.24744559)59.62:0.05933373,(YP_0099874:0.10076050,(YP_0099965:0.14046393,(AFN73049:0.06597241,YP_0095080:0.09728860)70.19:0.02367039)61.54:0.02921471)100.00:0.14618198)100.00:0.35362594,(QKK82920:0.35192526,(UAJ23566:0.12856772,(AWU49720:0.05955661,(PututeOrth:0.04124393,RdRp_GIJA:0.03989355)100.00:0.06605439)100.00:0.16173423)100.00:0.29266889)100.00:0.33343278)94.23:0.19728042,((AYR04798:0.00000001,QDK54862:0.00000001)100.00:0.38769529,((AJG39085:0.56593939,QMP82268:0.42190084)20.19:0.07419387,(QPZ88434:0.33009917,(QWC36498:0.03329433,(QWC36493:0.00000001,QWC36487:0.00000001)100.00:0.06933828)100.00:0.56965928)37.50:0.07048014)25.96:0.06220645)100.00:0.80164424)65.38:0.07234145)38.46:0.19522231)29.81:0.08255807)45.19:0.17104128)25.96:0.05404097)73.08:0.10721584,(QMP82195:0.43004800,(QMP82285:0.14899445,QED21504:0.13849557)100.00:0.41218955)100.00:0.32887320)79.81:0.10368052)47.12:0.10549108)25.00:0.03789436)24.04:0.08025894)13.46:0.04658111)23.08:0.02631117)40.38:0.06502277)26.92:0.04499247)59.62:0.07361507);end;
+
+
+begin figtree;
+    set appearance.backgroundColorAttribute="Default";
+    set appearance.backgroundColour=#ffffff;
+    set appearance.branchColorAttribute="User selection";
+    set appearance.branchColorGradient=false;
+    set appearance.branchLineWidth=1.0;
+    set appearance.branchMinLineWidth=0.0;
+    set appearance.branchWidthAttribute="Fixed";
+    set appearance.foregroundColour=#000000;
+    set appearance.hilightingGradient=false;
+    set appearance.selectionColour=#2d3680;
+    set branchLabels.colorAttribute="User selection";
+    set branchLabels.displayAttribute="Branch times";
+    set branchLabels.fontName="sansserif";
+    set branchLabels.fontSize=9;
+    set branchLabels.fontStyle=0;
+    set branchLabels.isShown=false;
+    set branchLabels.significantDigits=4;
+    set layout.expansion=574;
+    set layout.layoutType="RECTILINEAR";
+    set layout.zoom=0;
+    set legend.attribute="bootstrap";
+    set legend.fontSize=10.0;
+    set legend.isShown=false;
+    set legend.significantDigits=0;
+    set nodeBars.barWidth=4.0;
+    set nodeBars.isShown=false;
+    set nodeLabels.colorAttribute="User selection";
+    set nodeLabels.displayAttribute="bootstrap";
+    set nodeLabels.fontName="Arial";
+    set nodeLabels.fontSize=9;
+    set nodeLabels.fontStyle=0;
+    set nodeLabels.isShown=false;
+    set nodeLabels.significantDigits=0;
+    set nodeShapeExternal.colourAttribute=null;
+    set nodeShapeExternal.isShown=false;
+    set nodeShapeExternal.minSize=10.0;
+    set nodeShapeExternal.scaleType=Width;
+    set nodeShapeExternal.shapeType=Circle;
+    set nodeShapeExternal.size=4.0;
+    set nodeShapeExternal.sizeAttribute=null;
+    set nodeShapeInternal.colourAttribute=null;
+    set nodeShapeInternal.isShown=false;
+    set nodeShapeInternal.minSize=10.0;
+    set nodeShapeInternal.scaleType=Width;
+    set nodeShapeInternal.shapeType=Circle;
+    set nodeShapeInternal.size=4.0;
+    set nodeShapeInternal.sizeAttribute=null;
+    set polarLayout.alignTipLabels=false;
+    set polarLayout.angularRange=0;
+    set polarLayout.rootAngle=0;
+    set polarLayout.rootLength=100;
+    set polarLayout.showRoot=true;
+    set radialLayout.spread=0.0;
+    set rectilinearLayout.alignTipLabels=false;
+    set rectilinearLayout.curvature=0;
+    set rectilinearLayout.rootLength=0;
+    set scale.offsetAge=0.0;
+    set scale.rootAge=1.0;
+    set scale.scaleFactor=1.0;
+    set scale.scaleRoot=false;
+    set scaleAxis.automaticScale=true;
+    set scaleAxis.fontSize=8.0;
+    set scaleAxis.isShown=false;
+    set scaleAxis.lineWidth=1.0;
+    set scaleAxis.majorTicks=1.0;
+    set scaleAxis.minorTicks=0.5;
+    set scaleAxis.origin=0.0;
+    set scaleAxis.reverseAxis=false;
+    set scaleAxis.showGrid=true;
+    set scaleBar.automaticScale=false;
+    set scaleBar.fontSize=9.0;
+    set scaleBar.isShown=true;
+    set scaleBar.lineWidth=1.0;
+    set scaleBar.scaleRange=0.2;
+    set tipLabels.colorAttribute="User selection";
+    set tipLabels.displayAttribute="Names";
+    set tipLabels.fontName="Arial";
+    set tipLabels.fontSize=9;
+    set tipLabels.fontStyle=0;
+    set tipLabels.isShown=true;
+    set tipLabels.significantDigits=4;
+    set trees.order=true;
+    set trees.orderType="increasing";
+    set trees.rooting=true;
+    set trees.rootingType="Midpoint";
+    set trees.transform=false;
+    set trees.transformType="cladogram";
+end;
